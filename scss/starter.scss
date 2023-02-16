@@ -9,7 +9,6 @@
 // `$body-color` or write more CSS that override's Bootstrap's CSS like so:
 // `body { color: red; }`.
 
-
 //
 // Bring in Bootstrap
 //
@@ -30,8 +29,8 @@ $enable-shadows: true;
 
 // Customize some defaults
 $body-color: #333;
-$body-bg: #fff;
-$border-radius: .4rem;
+$body-bg: #5096a7;
+$border-radius: 0.4rem;
 $success: #7952b3;
 
 @import "bootstrap/scss/functions"; // Required
@@ -42,18 +41,18 @@ $success: #7952b3;
 @import "bootstrap/scss/reboot"; // Required
 @import "bootstrap/scss/type";
 // @import "bootstrap/scss/images";
-// @import "bootstrap/scss/code";
+@import "bootstrap/scss/code";
 @import "bootstrap/scss/grid";
 // @import "bootstrap/scss/tables";
 // @import "bootstrap/scss/forms";
 @import "bootstrap/scss/buttons";
 @import "bootstrap/scss/transitions";
-// @import "bootstrap/scss/dropdown";
-// @import "bootstrap/scss/button-group";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
 // @import "bootstrap/scss/input-group"; // Requires forms
 // @import "bootstrap/scss/custom-forms";
-// @import "bootstrap/scss/nav";
-// @import "bootstrap/scss/navbar"; // Requires nav
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar"; // Requires nav
 // @import "bootstrap/scss/card";
 // @import "bootstrap/scss/breadcrumb";
 // @import "bootstrap/scss/pagination";
@@ -67,12 +66,11 @@ $success: #7952b3;
 // @import "bootstrap/scss/toasts";
 @import "bootstrap/scss/modal"; // Requires transitions
 // @import "bootstrap/scss/tooltip";
-// @import "bootstrap/scss/popover";
+//@import "bootstrap/scss/popover";
 // @import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
 @import "bootstrap/scss/utilities";
 // @import "bootstrap/scss/print";
-
 
 //
 // Custom styles
@@ -81,7 +79,7 @@ $success: #7952b3;
 @import "icon-list";
 
 body {
-  padding: 3rem 1.5rem;
+  padding: 2rem 1.5rem;
 }
 
 // Style Bootstrap icons
